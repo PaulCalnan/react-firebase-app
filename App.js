@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, TouchableHighlight, TextInput } from 'react-native';
-import { f, auth, database } from './config/config.js';
+import { f, auth, database, storage } from './config/config.js';
 
 export default class App extends React.Component {
 
